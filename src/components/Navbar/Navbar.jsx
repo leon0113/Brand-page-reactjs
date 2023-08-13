@@ -11,10 +11,10 @@ const Navbar = () => {
                 </div>
                 {/* list */}
                 <ul>
-                    <li href='#'>Menu</li>
-                    <li href='#'>Location</li>
-                    <li href='#'>About</li>
-                    <li href='#'>Contact</li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Location</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
                 {/* login btn  */}
                 <button>Login</button>

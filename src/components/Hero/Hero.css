@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,100;1,200;1,400;1,500&family=Roboto+Slab&display=swap');
+
+
+
+.hero{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1280px;
+    height: calc(100vh - 72px);  /* here 72px is the navbar height. */
+    align-items: center;
+   
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.hero h1{
+        font-weight: 800;
+        font-size: 108px;
+        line-height: 102px;
+}
+.hero p{
+        font-weight: 600;
+        color: var(--gray);
+        max-width: 400px;
+}
+
+.hero-btns{
+    display: flex;
+    gap: 40px;
+}
+
+.hero-btns button{
+    font-size: 24px;
+}
+
+.sec-btn{
+    background: transparent;
+    color: var(--gray);
+    border: 2px solid gray;
+}
+
+.available p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.shop-icons{
+    display: flex;
+    gap: 16px;
+}
+
