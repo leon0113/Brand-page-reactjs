@@ -40,7 +40,20 @@ button{
     background-color: #d01c28;
     padding: 6px 16px;
     height:32px;
+    border-radius: 10px;
     color: white;
     font-weight: 500;
     cursor: pointer;
+}
+
+@media (max-width: 650px) {
+    .logo{
+        margin-left: 50px;
+    }
+    nav ul{
+        display: none;
+    }
+    button{
+        display: none;
+    }
 }

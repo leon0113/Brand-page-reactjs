@@ -2,12 +2,12 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <div>
+        <>
             {/* nav part  */}
             <nav>
                 {/* logo  */}
                 <div className="logo">
-                    <img src="../src/assets/brand_logo.png" alt="logo" />
+                    <img src="/images/brand_logo.png" alt="logo" />
                 </div>
                 {/* list */}
                 <ul>
@@ -19,7 +19,7 @@ const Navbar = () => {
                 {/* login btn  */}
                 <button>Login</button>
             </nav>
-        </div>
+        </>
     );
 };
 
